@@ -176,6 +176,10 @@ class RegisterView extends StackedView<RegisterViewModel> with $RegisterView {
   }
 
   @override
+  void onViewModelReady(RegisterViewModel viewModel) {
+    syncFormWithViewModel(viewModel);
+  }
+
   RegisterViewModel viewModelBuilder(
     BuildContext context,
   ) =>

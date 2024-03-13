@@ -8,6 +8,7 @@ import 'package:my_first_app/ui/views/counter/counter_view.dart';
 import 'package:my_first_app/ui/views/login/login_view.dart';
 import 'package:my_first_app/services/authentication_service.dart';
 import 'package:my_first_app/services/api_service.dart';
+import 'package:my_first_app/ui/views/register/register_view.dart';
 // @stacked-import
 
 @StackedApp(
@@ -16,6 +17,7 @@ import 'package:my_first_app/services/api_service.dart';
     MaterialRoute(page: StartupView),
     MaterialRoute(page: CounterView),
     MaterialRoute(page: LoginView),
+    MaterialRoute(page: RegisterView),
 // @stacked-route
   ],
   dependencies: [

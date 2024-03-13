@@ -19,6 +19,6 @@ class LoginViewModel extends FormViewModel {
   }
 
   goToRegisterScreen() {
-    _navigationService.replaceWith(Routes.homeView);
+    _navigationService.replaceWith(Routes.registerView);
   }
 }
